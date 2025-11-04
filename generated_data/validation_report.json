@@ -1,0 +1,126 @@
+{
+  "directory_structure": {
+    "status": true,
+    "summary": "\u76ee\u5f55\u7ed3\u6784: 6 \u4e2a\u6587\u4ef6",
+    "details": {
+      "scene_images": true,
+      "metadata": true,
+      "annotations": true,
+      "masks": false,
+      "depth_maps": false,
+      "total_files": 6
+    },
+    "details_count": 6
+  },
+  "image_files": {
+    "status": true,
+    "summary": "3/3 \u4e2a\u56fe\u50cf\u6587\u4ef6\u6709\u6548",
+    "details": [
+      {
+        "file": "scene_000.png",
+        "status": "\u2705",
+        "size": [
+          480,
+          640,
+          3
+        ],
+        "channels": 3
+      },
+      {
+        "file": "scene_000_depth.png",
+        "status": "\u2705",
+        "size": [
+          480,
+          640,
+          3
+        ],
+        "channels": 3
+      },
+      {
+        "file": "scene_000_mask.png",
+        "status": "\u2705",
+        "size": [
+          480,
+          640,
+          3
+        ],
+        "channels": 3
+      }
+    ],
+    "details_count": 3
+  },
+  "metadata_files": {
+    "status": false,
+    "summary": "1/2 \u4e2a\u5143\u6570\u636e\u6587\u4ef6\u6709\u6548",
+    "details": [
+      {
+        "file": "scene_000.json",
+        "status": "\u2705",
+        "scene_id": 0,
+        "scene_type": "urban",
+        "object_count": 5,
+        "missing_fields": []
+      },
+      {
+        "file": "validation_report.json",
+        "status": "\u274c",
+        "scene_id": "\u7f3a\u5931",
+        "scene_type": "\u7f3a\u5931",
+        "object_count": 0,
+        "missing_fields": [
+          "scene_id",
+          "scene_type",
+          "camera_parameters",
+          "objects"
+        ]
+      }
+    ],
+    "details_count": 2
+  },
+  "annotation_files": {
+    "status": true,
+    "summary": "1/1 \u4e2a\u6807\u6ce8\u6587\u4ef6\u6709\u6548",
+    "details": [
+      {
+        "file": "scene_000_annotations.json",
+        "status": "\u2705",
+        "image_file": "scene_000.png",
+        "bbox_count": 5,
+        "missing_fields": []
+      }
+    ],
+    "details_count": 1
+  },
+  "data_consistency": {
+    "status": false,
+    "summary": "\u4e00\u81f4\u6027\u68c0\u67e5: 3 \u4e2a\u95ee\u9898",
+    "details": [
+      {
+        "image": "scene_000.png",
+        "missing_files": [
+          "mask_scene_000.png",
+          "depth_scene_000.png"
+        ]
+      },
+      {
+        "image": "scene_000_depth.png",
+        "missing_files": [
+          "scene_000_depth.json",
+          "scene_000_depth_annotations.json",
+          "mask_scene_000_depth.png",
+          "depth_scene_000_depth.png"
+        ]
+      },
+      {
+        "image": "scene_000_mask.png",
+        "missing_files": [
+          "scene_000_mask.json",
+          "scene_000_mask_annotations.json",
+          "mask_scene_000_mask.png",
+          "depth_scene_000_mask.png"
+        ]
+      }
+    ],
+    "details_count": 3
+  }
+}

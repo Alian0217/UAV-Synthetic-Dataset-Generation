@@ -1,0 +1,27 @@
+# 数据文件
+data/
+*.png
+*.jpg
+*.mp4
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+
+# 虚拟环境
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Unreal Engine
+Saved/
+Intermediate/
+Binaries/

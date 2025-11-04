@@ -1,0 +1,115 @@
+{
+  "scene_id": 0,
+  "scene_type": "urban",
+  "timestamp": "2025-11-05T02:19:54.925390",
+  "camera_parameters": {
+    "position": [
+      0,
+      0,
+      100
+    ],
+    "rotation": [
+      -90,
+      0,
+      0
+    ],
+    "fov": 90,
+    "resolution": [
+      640,
+      480
+    ]
+  },
+  "objects": [
+    {
+      "type": "building",
+      "position": [
+        -400,
+        0,
+        0
+      ],
+      "size": [
+        100,
+        100,
+        150
+      ],
+      "color": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "building",
+      "position": [
+        -200,
+        0,
+        0
+      ],
+      "size": [
+        100,
+        100,
+        200
+      ],
+      "color": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "building",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        100,
+        100,
+        250
+      ],
+      "color": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "building",
+      "position": [
+        200,
+        0,
+        0
+      ],
+      "size": [
+        100,
+        100,
+        300
+      ],
+      "color": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "building",
+      "position": [
+        400,
+        0,
+        0
+      ],
+      "size": [
+        100,
+        100,
+        350
+      ],
+      "color": [
+        100,
+        100,
+        100
+      ]
+    }
+  ],
+  "lighting_conditions": "daylight"
+}
